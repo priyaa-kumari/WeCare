@@ -1,0 +1,96 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.container h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.cart-table thead {
+    background-color: #f2f2f2;
+}
+
+.coupon-section {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* .coupon-section label {
+    flex: 1;
+    margin-right: 10px;
+} */
+
+.coupon-section button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.cart-totals-box {
+    border: 1px solid #ddd;
+    width: 340px;
+    margin-left: 52.5%;
+    height: 240px;
+    /* Add border */
+    padding: 20px;
+    /* Add padding */
+    margin-top: 20px;
+    /* Add margin for spacing */
+    border-radius: 5px;
+}
+
+.cart-totals {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.cart-totals h2{
+    border-bottom: 3px solid #ddd;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cart-totals p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-totals button {
+    font-size: 15px;
+    padding: 15px 100px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+}
